@@ -20,16 +20,12 @@ function Contact() {
           freelancers
         </div>
       </div>
-      <div style={{ marginTop: "100px" }} className="featuresContainer">
-        <div
-          style={{
-            width: "453px",
-            textAlign: "center",
-            border: "1px solid #DDDDDD",
-            boxShadow: "0px 13px 19px rgba(0, 0, 0, 0.07)",
-            borderRadius: "20px",
-          }}
-        >
+
+      <div
+        style={{ marginTop: "100px" }}
+        className="featuresContainer ContenContact"
+      >
+        <div className="formContact">
           <div className="pricingBoldWhiteTitle" style={{ marginTop: "45px" }}>
             Contact Us
           </div>
@@ -46,57 +42,35 @@ function Contact() {
             </div>
           </form>
         </div>
-        <div style={{ width: "765px", height: "669px" }}>
-          <div className="featuresContainer" style={{ marginTop: "45px" }}>
-            <div
-              className=" featuresBold"
-              style={{ width: "40%", marginRight: "35px" }}
-            >
+
+        <div className="containerContactRight">
+          <div className="ContactRight " style={{ marginTop: "45px" }}>
+            <div className="contactAdress featuresBold ">
               <img src={addressBlue} alt="Italian Trulli" />
-              <div
-                className="featuresBoldTextContent"
-                style={{ width: "293px" }}
-              >
+
+              <div className="featuresBoldTextContent contactAdress2">
                 6386 Spring St undefined Anchorage, Georgia 12473 United States
               </div>
             </div>
-            <div
-              style={{
-                textAlign: "center",
-                width: "117px",
-                marginRight: "35px",
-              }}
-            >
+
+            <div className="featuresBold contactAdress2">
               <img src={phoneBlue} alt="Italian Trulli" />
-              <div
-                style={{
-                  width: "117px",
-                  height: "100px",
-                  fontWeight: 400,
-                  fontSize: "18px",
-                  lineHeight: "25px",
-                  textAlign: "center",
-                  letterSpacing: "0.2px",
-                  color: "#374754",
-                }}
-              >
-                (843) 555-0130
-              </div>
+              <div className="featuresBold contactAdress2">(843) 555-0130</div>
             </div>
-            <div className="featuresBold">
+
+            <div className="contactAdress featuresBold ">
               <img src={mail} alt="Italian Trulli" />
-              <div className="featuresBoldTextContent">
+              <div className="featuresBoldTextContent contactAdress2">
                 willie.jennings@example.com
               </div>
             </div>
           </div>
-          <div className="featuresContainer" style={{ marginTop: "10px" }}>
+
+          <div className="featuresContainer map" style={{ marginTop: "10px" }}>
             <img src={map} />
           </div>
-          <div
-            className="featuresContainer"
-            style={{ marginTop: "70px", float: "left", marginLeft: "50px" }}
-          >
+
+          <div className="contactAdress3">
             <img src={tweeterblue} style={{ marginRight: "30px" }} />
             <img src={fbblue} style={{ marginRight: "30px" }} />
             <img src={thinkBlue} />

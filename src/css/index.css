@@ -180,6 +180,8 @@
 
 }
 
+
+
 .featuresBoldText {
     height: 56px;
     font-weight: 700;
@@ -230,6 +232,10 @@
     color: #FFFFFF;
 
 
+}
+
+.footerBold p {
+    margin-top: 16px;
 }
 
 .footerBoldtitle {
@@ -317,8 +323,6 @@
     margin-top: 115px;
     height: 1155px;
 
-    /* Dark background */
-
     background: #252B42;
 
 }
@@ -367,6 +371,7 @@
     border: 1px solid #DEDEDE;
     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
     border-radius: 10px;
+    margin-right: 50px;
 }
 
 .pricingBoldWhite p {
@@ -447,6 +452,7 @@
     border: 1px solid #DEDEDE;
     box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
     border-radius: 10px;
+    margin-right: 50px;
 
 
 }
@@ -487,6 +493,7 @@
     text-align: center;
     letter-spacing: 0.1px;
     color: #FFFFFF;
+    margin-top: 20px;
 
 }
 
@@ -561,4 +568,566 @@
     color: #FFFFFF;
     background: #2091F9;
     border-radius: 35px;
+}
+
+.video {
+    height: 658px;
+    width: 1177px;
+    border-radius: 45px;
+}
+
+.containerComputer {
+    justify-content: right;
+}
+
+.computer {
+    width: 100%;
+}
+
+.featuresContainerFastest {
+    text-align: left;
+}
+
+.featuresTiltleFastest {
+    width: 300px;
+    height: 55px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+    color: #252B42;
+    text-align: center;
+    letter-spacing: 0.2px;
+    font-family: 'Graphik';
+    text-align: left;
+}
+
+.featuresContentFastest {
+
+    width: 532px;
+    height: 80px;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 40px;
+    text-align: left;
+    letter-spacing: 0.2px;
+    color: #374754;
+    margin-top: 100px;
+    font-family: 'Graphik';
+}
+
+.FastestButton {
+    display: flex;
+    justify-content: left;
+}
+
+.FastestButton button {
+    font-family: 'GraphikBold';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 0px;
+    width: 236px;
+    height: 52px;
+    background: #2091F9;
+    border-radius: 35px;
+    border-width: 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+    margin-top: 70px;
+}
+
+.featuresContainerLetter {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+
+}
+
+.featuresTiltleMinLetter {
+    width: 335px;
+    height: 55px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 55px;
+    color: #252B42;
+    letter-spacing: 0.2px;
+    font-family: 'GraphikBold';
+    text-align: left;
+}
+
+.featuresTiltleLetter {
+    width: 335px;
+    height: 55px;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 55px;
+    color: #252B42;
+    text-align: left;
+    letter-spacing: 0.2px;
+    font-family: 'Graphik';
+}
+
+.featuresContentMinLetter {
+    width: 335px;
+    height: 55px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 55px;
+    color: #252B42;
+    letter-spacing: 0.2px;
+    font-family: 'Graphik';
+    text-align: left;
+}
+
+.containerLetter {
+    margin-left: 100px;
+    width: 450px;
+}
+
+.buttonLetter {
+    display: flex;
+    margin-top: 100px;
+}
+
+.iconBottom {
+    text-align: left;
+    margin-top: 15px;
+}
+
+.formContact {
+    width: 453px;
+    text-align: center;
+    border: 1px solid #DDDDDD;
+    box-shadow: 0px 13px 19px rgba(0, 0, 0, 0.07);
+    border-radius: 20px;
+}
+
+.ContactRight {
+    display: flex;
+    justify-content: center;
+}
+
+.containerContactRight {
+    width: 765px;
+    height: 669px;
+}
+
+.contactAdress {
+    width: 40%;
+}
+
+.contactAdress3 {
+    display: flex;
+    justify-content: left;
+    margin-top: 70px;
+    margin-left: 50px;
+}
+
+.header .nav-btn {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: var(--textColor);
+    visibility: hidden;
+    opacity: 0;
+}
+
+.paddingTopfeatures {
+    padding-top: 293px;
+}
+
+@media only screen and (max-width:445px) {
+    .body {
+        width: 100%;
+    }
+
+    .paddingTopfeatures {
+        padding-top: 100px;
+    }
+
+
+    .header {
+        width: 100%;
+        height: 847px;
+        background-size: 100% 847px;
+        background-image: url('https://img6.thuthuatphanmem.vn/uploads/2022/03/04/background-hop-online-cong-ty-4k_013912826.jpg');
+        clip-path: polygon(0 0, 100% 0, 100% 730px, 50% 847px, 0 730px);
+    }
+
+    .header .nav-btn {
+        float: right;
+        visibility: visible;
+        opacity: 1;
+        color: #eee;
+        font-size: 2.5rem;
+    }
+
+    .header nav {
+        position: fixed;
+        top: 0;
+        /* left: 0; */
+        height: 400px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1.5rem;
+        background: var(--mainColor);
+        transition: 1s;
+        transform: translateY(-100vh);
+        padding-top: 30px;
+    }
+
+    .header .responsive_nav {
+        transform: none;
+    }
+
+
+
+    .nav-close-btn {
+        float: right;
+        visibility: visible;
+        opacity: 1;
+        color: #eee;
+        font-size: 2.5rem;
+    }
+
+
+    .logo {
+        margin-right: 0px;
+        text-align: left;
+        width: 80%;
+        justify-content: left;
+    }
+
+    .icon {
+        display: none;
+    }
+
+    .features {
+        margin-top: 100px;
+    }
+
+    .featuresContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+    .featuresTiltle {
+        width: 300px;
+        height: 55px;
+
+    }
+
+    .featuresTiltleMin {
+        width: 300px;
+        height: 55px;
+
+    }
+
+    .featuresContentMin {
+        width: 300px;
+        height: 55px;
+
+
+    }
+
+
+    .featuresContent {
+        width: 90%;
+        height: 80px;
+        text-align: center;
+    }
+
+    .video {
+        height: 215px;
+        width: 385px;
+        border-radius: 14px;
+    }
+
+    .featuresBold {
+        text-align: center;
+        width: 231px;
+        margin-bottom: 80px;
+
+    }
+
+    .computer {
+        width: 350px;
+        height: 200px;
+    }
+
+    .featuresContainerFastest {
+        text-align: center;
+
+    }
+
+    .featuresTiltleFastest {
+        width: 95%;
+        height: 55px;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .featuresContentFastest {
+
+        width: 90%;
+        height: 150px;
+        text-align: center;
+        margin-top: 100px;
+
+    }
+
+    .FastestButton {
+        display: flex;
+        justify-content: center;
+    }
+
+    .containerComputer {
+        margin-top: 65px;
+    }
+
+    .featuresContainerLetter {
+        display: flex;
+        margin-top: 150px;
+
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .featuresBox {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .featuresContainerLetter {
+        display: flex;
+        justify-content: center;
+        margin-top: 150px;
+
+    }
+
+    .featuresTiltleMinLetter {
+        width: 335px;
+        height: 55px;
+        text-align: center;
+    }
+
+    .featuresTiltleLetter {
+        width: 335px;
+        height: 55px;
+        text-align: center;
+    }
+
+    .featuresContentMinLetter {
+        width: 335px;
+        height: 55px;
+        text-align: center;
+    }
+
+    .containerLetter {
+        margin-left: 100px;
+        width: 450px;
+    }
+
+    .buttonLetter {
+        display: flex;
+        margin-top: 100px;
+        flex-direction: column;
+    }
+
+    .SubscribeButton {
+        align-items: center;
+        width: 350px;
+        height: 54px;
+        margin-top: 12px;
+
+    }
+
+    .EmailButton {
+        width: 350px;
+    }
+
+    .userSvg {
+        margin-top: 90px;
+        height: 275px;
+        width: 95%;
+    }
+
+    .TestimonialsContent {
+        width: 90%;
+        height: 200px;
+
+    }
+
+    .pricingContent {
+        margin-top: 27px;
+        width: 90%;
+    }
+
+    .pricing {
+        height: 2340px;
+    }
+
+    .pricingBoldWhite {
+        margin-right: 0px;
+
+    }
+
+    .pricingBoldBlue {
+        height: 607px;
+        margin-right: 0px;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    .pricingBoldBlueTitle {
+        margin-top: 50px;
+    }
+
+    .footer {
+        width: 100%;
+        height: 1450px
+    }
+
+    .footerContainer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column;
+
+    }
+
+    .footerContainer {
+        padding-top: 0px;
+    }
+
+    .footerBold {
+        margin-top: 80px;
+        margin-right: 0px;
+    }
+
+    .footerBoldIcon {
+        justify-content: center;
+        text-align: center;
+        margin-top: 80px;
+        width: 300px;
+        margin-left: 0px;
+
+    }
+
+    .iconBottom {
+        text-align: center;
+        margin-top: 15px;
+    }
+
+    .map {
+        display: none
+    }
+
+    .ContenContact {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+
+    .contactAdress {
+        display: flex;
+        justify-content: left;
+        text-align: left;
+        width: 400px;
+        margin-bottom: 0px;
+    }
+
+    .contactAdress2 {
+        margin-left: 10px;
+        display: flex;
+        justify-content: left;
+        text-align: left;
+        width: 320px;
+        font-size: 16px;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+
+
+    .ContactRight {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around
+    }
+
+    .containerContactRight {
+        width: 90%;
+        height: 669px;
+    }
+
+    .contactAdress3 {
+        flex-direction: row;
+        justify-content: center;
+        margin-left: 0px;
+    }
+
+    .formContact {
+        width: 95%;
+    }
+
+    .input {
+        width: 300px;
+        height: 54px;
+    }
+
+    .inputMessage {
+        width: 300px;
+        height: 193px;
+
+    }
+
+    .contactButton {
+        margin: auto;
+        width: 300px;
+        text-align: left;
+    }
+
+    .headerText {
+        font-family: 'Graphik';
+        width: 100%;
+        font-size: 48px;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 55px;
+        margin-top: 115px;
+
+    }
+
+    .TextTiltle {
+        width: 333px;
+        height: 165px;
+    }
+
+    .TextContent {
+        width: 90%;
+        overflow: hidden;
+        text-overflow: clip;
+        line-height: 25px;
+        -webkit-line-clamp: 2;
+        height: 50px;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+    }
+
+
 }

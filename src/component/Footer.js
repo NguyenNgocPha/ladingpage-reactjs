@@ -48,7 +48,7 @@ function Footer(props) {
             </div>
             <p style={{ marginTop: "10px" }}>  (239) 555-0108 </p>
           </div>
-          <div style={{ marginTop: "15px", textAlign: "left" }}>
+          <div className="iconBottom">
             <a href="./" style={{ marginRight: "33px" }}>
               <img src={tweeter} alt="ItalianTrulli" />
             </a>

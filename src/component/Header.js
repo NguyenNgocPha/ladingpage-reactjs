@@ -4,12 +4,19 @@ import logo from "../asset/logo.svg";
 import tweeter from "../asset/tweeter.svg";
 import fb from "../asset/fb.svg";
 import think from "../asset/think.svg";
+import { FaTimes } from "react-icons/fa";
+import { BiMenuAltRight } from "react-icons/bi";
+import { useRef } from "react";
 
 function Header() {
+  const navRef = useRef();
+  const showNavbar = () => {
+    navRef.current.classList.toggle("responsive_nav");
+  };
   return (
     <div className="header">
       <div className="nav">
-        <div className="menu">
+        <nav className="menu" ref={navRef}>
           <a href="https://freetuts.net" title="freetuts">
             Home
           </a>
@@ -25,7 +32,10 @@ function Header() {
           <a href="https://freetuts.net/hoc-javascript" title="freetuts">
             Contact
           </a>
-        </div>
+          <button className="nav-btn" onClick={showNavbar}>
+            <FaTimes />
+          </button>
+        </nav>
         <div className="logo">
           <img src={logo} alt="Italian Trulli" />
         </div>
@@ -40,6 +50,9 @@ function Header() {
             <img src={think} alt="Italian Trulli" />
           </a>
         </div>
+        <button className="nav-btn" onClick={showNavbar}>
+          <BiMenuAltRight />
+        </button>
       </div>
       <div className="headerText">
         <div className="TextTiltle">The best products start with Figma</div>

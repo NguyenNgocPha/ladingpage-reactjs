@@ -19,121 +19,100 @@ function Features() {
           freelancers
         </div>
       </div>
-      <div className="featuresContainer" style={{ marginTop: "100px" }}>
-        <div className="featuresBold" style={{ marginRight: "50px" }}>
-          <img
-            src={opentype}
-            alt="Italian Trulli"
-            style={{ marginBottom: "25px" }}
-          />
-          <div className="featuresBoldText">
-            OpenType features Variable fonts
+
+      <div className="featuresBox">
+        <div className="featuresContainer" style={{ marginTop: "100px" }}>
+          <div
+            className="featuresBold"
+            style={{ marginRight: "50px", marginLeft: "50px" }}
+          >
+            <img
+              src={opentype}
+              alt="Italian Trulli"
+              style={{ marginBottom: "25px" }}
+            />
+            <div className="featuresBoldText">
+              OpenType features Variable fonts
+            </div>
+            <div className="featuresBoldTextContent">
+              Slate helps you see how many more days you need to work to reach
+              your financial goal.
+            </div>
           </div>
-          <div className="featuresBoldTextContent">
-            Slate helps you see how many more days you need to work to reach
-            your financial goal.
+
+          <div
+            className="featuresBold"
+            style={{ marginRight: "50px", marginLeft: "50px" }}
+          >
+            <img
+              src={desgin}
+              alt="Italian Trulli"
+              style={{ marginBottom: "25px" }}
+            />
+            <div className="featuresBoldText">Design with real data</div>
+            <div className="featuresBoldTextContent">
+              Slate helps you see how many more days you need to work to reach
+              your financial goal.
+            </div>
+          </div>
+
+          <div
+            className="featuresBold"
+            style={{ marginRight: "50px", marginLeft: "50px" }}
+          >
+            <img
+              src={fastest}
+              alt="Italian Trulli"
+              style={{ marginBottom: "25px" }}
+            />
+            <div className="featuresBoldText">Fastest way to take action</div>
+            <div className="featuresBoldTextContent">
+              Slate helps you see how many more days you need to work to reach
+              your financial goal.
+            </div>
           </div>
         </div>
-        <div className="featuresBold" style={{ marginRight: "50px" }}>
-          <img
-            src={desgin}
-            alt="Italian Trulli"
-            style={{ marginBottom: "25px" }}
-          />
-          <div className="featuresBoldText">Design with real data</div>
-          <div className="featuresBoldTextContent">
-            Slate helps you see how many more days you need to work to reach
-            your financial goal.
-          </div>
-        </div>
-        <div className="featuresBold" style={{ marginRight: "50px" }}>
-          <img
-            src={fastest}
-            alt="Italian Trulli"
-            style={{ marginBottom: "25px" }}
-          />
-          <div className="featuresBoldText">Fastest way to take action</div>
-          <div className="featuresBoldTextContent">
-            Slate helps you see how many more days you need to work to reach
-            your financial goal.
-          </div>
+
+        <div className="featuresContainer" style={{ marginTop: "100px" }}>
+          <video className="video" src={video} controls />
         </div>
       </div>
 
-      <div className="featuresContainer" style={{ marginTop: "100px" }}>
-        <video
-          src={video}
-          height="658px"
-          width="1177px"
-          style={{ borderRadius: "45px" }}
-          controls
-        />
-      </div>
-
-      <div
-        className="featuresContainer"
-        style={{ paddingTop: "293px", height: "630px" }}
-      >
-        <div style={{ textAlign: "left" }}>
-          <div
-            className="featuresTiltle"
-            style={{ width: "335px", textAlign: "left" }}
-          >
-            Fastest way to organize
-          </div>
-          <div
-            className="featuresContent"
-            style={{ marginTop: "100px", textAlign: "left" }}
-          >
+      <div className="featuresContainer paddingTopfeatures">
+        <div className="featuresContainerFastest">
+          <div className="featuresTiltleFastest">Fastest way to organize</div>
+          <div className="featuresContentFastest">
             Most calendars are designed for teams. Slate is designed for
             freelancers
           </div>
-          <div
-            className="headerButton"
-            style={{ float: "left", marginTop: "70px" }}
-          >
+          <div className="FastestButton">
             <button>Try For Free</button>
           </div>
         </div>
-        <div style={{ justifyContent: "right" }}>
+
+        <div className="containerComputer">
           {" "}
-          <img src={computor} />
+          <img src={computor} className="computer" />
         </div>
       </div>
-      <div
-        className="featuresContainer"
-        style={{ marginTop: "150px", height: "575px" }}
-      >
-        <div style={{ justifyContent: "right" }}>
+
+      <div className="featuresContainerLetter">
+        <div style={{}}>
           {" "}
-          <img src={user} />
+          <img src={user} className="userSvg" />
         </div>
-        <div style={{ textAlign: "left", marginLeft: "70px", width: "450px" }}>
-          <div
-            className="featuresTiltleMin"
-            style={{ width: "335px", textAlign: "left" }}
-          >
-            At your fingertips
-          </div>
-          <div
-            className="featuresTiltle"
-            style={{ width: "335px", textAlign: "left" }}
-          >
+        <div className="containerLetter">
+          <div className="featuresTiltleMinLetter">At your fingertips</div>
+          <div className="featuresTiltleLetter">
             Lightning fast prototyping{" "}
           </div>
-          <div
-            className="featuresTiltleMin"
-            style={{ width: "335px", textAlign: "left", marginTop: "100px" }}
-          >
+          <div className="featuresTiltleMinLetter" style={{ marginTop: 70 }}>
             Subscribe to our Newsletter
           </div>
-          <div
-            className="featuresContentMin"
-            style={{ width: "335px", textAlign: "left" }}
-          >
+          <div className="featuresContentMinLetter">
             Subscribe to our Newsletter
           </div>
-          <div style={{ marginTop: "100px", display: "flex" }}>
+          <div className="buttonLetter">
             <input className="EmailButton" placeholder="Your Email" />
             <button className="SubscribeButton">Subscribe</button>
           </div>

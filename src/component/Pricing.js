@@ -17,7 +17,7 @@ function Pricing() {
         style={{ marginTop: "90px", alignItems: "center" }}
         className="featuresContainer"
       >
-        <div className="pricingBoldWhite" style={{ marginRight: "50px" }}>
+        <div className="pricingBoldWhite">
           <div className="pricingBoldWhiteTitle">FREE</div>
           <div
             className="pricingBoldWhiteContent"
@@ -46,9 +46,10 @@ function Pricing() {
             <button>Order Now</button>
           </div>
         </div>
-        <div className="pricingBoldBlue" style={{ marginRight: "50px" }}>
+
+        <div className="pricingBoldBlue">
           <div className="pricingBoldBlueTitle">STANDARD</div>
-          <div className="pricingBoldBlueContent" style={{ marginTop: "20px" }}>
+          <div className="pricingBoldBlueContent">
             Organize across all apps by hand
           </div>
           <div
@@ -76,7 +77,7 @@ function Pricing() {
             </button>
           </div>
         </div>
-        <div className="pricingBoldWhite">
+        <div className="pricingBoldWhite" style={{ marginRight: 0 }}>
           <div className="pricingBoldWhiteTitle">BUSINESS</div>
           <div
             className="pricingBoldWhiteContent"

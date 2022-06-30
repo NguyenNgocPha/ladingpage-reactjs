@@ -21,7 +21,7 @@ function Features() {
       </div>
 
       <div className="featuresBox">
-        <div className="featuresContainer" style={{ marginTop: "100px" }}>
+        <div className="featuresContainer margin100v2">
           <div
             className="featuresBold"
             style={{ marginRight: "50px", marginLeft: "50px" }}
@@ -73,7 +73,7 @@ function Features() {
           </div>
         </div>
 
-        <div className="featuresContainer" style={{ marginTop: "100px" }}>
+        <div className="featuresContainer margin100">
           <video className="video" src={video} controls />
         </div>
       </div>
@@ -96,17 +96,29 @@ function Features() {
         </div>
       </div>
 
+      <div className="featuresContainer Display">
+        <div className="featuresTiltleMinLetter">At your fingertips</div>
+        <div className="featuresTiltle">Newsletter </div>
+      </div>
+      <div className="featuresContainer Display">
+        <div className="featuresContent">
+          Most calendars are designed for teams. Slate is designed for
+          freelancers
+        </div>
+      </div>
       <div className="featuresContainerLetter">
         <div style={{}}>
           {" "}
           <img src={user} className="userSvg" />
         </div>
         <div className="containerLetter">
-          <div className="featuresTiltleMinLetter">At your fingertips</div>
-          <div className="featuresTiltleLetter">
+          <div className="featuresTiltleMinLetter DisplayNone">
+            At your fingertips
+          </div>
+          <div className="featuresTiltleLetter DisplayNone">
             Lightning fast prototyping{" "}
           </div>
-          <div className="featuresTiltleMinLetter" style={{ marginTop: 70 }}>
+          <div className="featuresTiltleMinLetter " style={{ marginTop: 70 }}>
             Subscribe to our Newsletter
           </div>
           <div className="featuresContentMinLetter">

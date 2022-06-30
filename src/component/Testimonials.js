@@ -17,7 +17,7 @@ function Testimonials() {
           freelancers who want a simple way to plan their schedule.
         </div>
       </div>
-      <div className="featuresContainer" style={{ marginTop: "62px" }}>
+      <div className="DisplayFlex" style={{ marginTop: "62px" }}>
         <img
           src="https://haycafe.vn/wp-content/uploads/2022/02/Anh-gai-xinh-Viet-Nam.jpg"
           alt="Girl in a jacket"
@@ -30,8 +30,8 @@ function Testimonials() {
           <p style={{ marginTop: "8px" }}>Ui designer</p>
         </div>
       </div>
-      <div className="headerButton" style={{ marginTop: "82px" }}>
-        <button>More Testimonials</button>
+      <div className="PartnersButton" style={{ marginTop: "82px" }}>
+        <button style={{ width: 276 }}>More Testimonials</button>
       </div>
     </div>
   );

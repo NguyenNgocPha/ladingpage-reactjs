@@ -18,7 +18,7 @@
     background-repeat: no-repeat;
     background-size: 100% 930px;
     background-image: url('https://img6.thuthuatphanmem.vn/uploads/2022/03/04/background-hop-online-cong-ty-4k_013912826.jpg');
-    clip-path: polygon(0 0, 100% 0, 100% 730px, 50% 930px, 0 730px);
+    clip-path: polygon(0 0, 100% 0, 100% 770px, 50% 930px, 0 770px);
 }
 
 .header a {
@@ -100,7 +100,7 @@
 }
 
 .headerButton button {
-    font-family: 'GraphikBold';
+    font-family: 'Graphik';
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -194,6 +194,7 @@
 }
 
 .featuresBoldTextContent {
+    /* padding-top: 20px; */
     width: 231px;
     height: 100px;
     font-weight: 400;
@@ -552,6 +553,7 @@
     margin: auto;
     width: 353px;
     text-align: left;
+    margin-bottom: 52px;
 }
 
 .contactButton button {
@@ -611,7 +613,7 @@
     text-align: left;
     letter-spacing: 0.2px;
     color: #374754;
-    margin-top: 100px;
+    margin-top: 90px;
     font-family: 'Graphik';
 }
 
@@ -642,7 +644,7 @@
 .featuresContainerLetter {
     display: flex;
     justify-content: center;
-    margin-top: 150px;
+    /* margin-top: 150px; */
 
 }
 
@@ -668,6 +670,7 @@
     text-align: left;
     letter-spacing: 0.2px;
     font-family: 'Graphik';
+    margin-bottom: 17px;
 }
 
 .featuresContentMinLetter {
@@ -689,7 +692,7 @@
 
 .buttonLetter {
     display: flex;
-    margin-top: 100px;
+    margin-top: 25px;
 }
 
 .iconBottom {
@@ -712,7 +715,7 @@
 
 .containerContactRight {
     width: 765px;
-    height: 669px;
+    /* height: 669px; */
 }
 
 .contactAdress {
@@ -739,15 +742,77 @@
 
 .paddingTopfeatures {
     padding-top: 293px;
+    margin-bottom: 150px;
 }
 
-@media only screen and (max-width:445px) {
+.margin100 {
+    margin-top: 100px;
+}
+
+.margin100v2 {
+    margin-top: 100px;
+}
+
+.Display {
+    display: none;
+}
+
+.DisplayFlex {
+    display: flex;
+    justify-content: center;
+}
+
+.PartnersButton {
+    display: flex;
+    justify-content: center;
+}
+
+.PartnersButton button {
+    font-family: 'GraphikBold';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 0px;
+    width: 236px;
+    height: 52px;
+    background: #2091F9;
+    border-radius: 35px;
+    border-width: 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
+
+.margin200 {
+    margin-top: 210px;
+}
+
+@media screen and (max-width:445px) {
     .body {
         width: 100%;
     }
 
+    .Display {
+        display: flex;
+    }
+
+    .DisplayNone {
+        display: none;
+    }
+
+    .marginImg {
+        margin-top: 30PX;
+    }
+
+    .margin200 {
+        margin-top: 160px;
+    }
+
     .paddingTopfeatures {
-        padding-top: 100px;
+        padding-top: 106px;
+        margin-bottom: 150px;
     }
 
 
@@ -756,7 +821,7 @@
         height: 847px;
         background-size: 100% 847px;
         background-image: url('https://img6.thuthuatphanmem.vn/uploads/2022/03/04/background-hop-online-cong-ty-4k_013912826.jpg');
-        clip-path: polygon(0 0, 100% 0, 100% 730px, 50% 847px, 0 730px);
+        clip-path: polygon(0 0, 100% 0, 100% 757px, 50% 847px, 0 757px);
     }
 
     .header .nav-btn {
@@ -765,6 +830,14 @@
         opacity: 1;
         color: #eee;
         font-size: 2.5rem;
+    }
+
+    .nav {
+        padding-top: 30px;
+    }
+
+    .header a {
+        margin-right: 0px;
     }
 
     .header nav {
@@ -778,7 +851,7 @@
         align-items: center;
         justify-content: space-between;
         gap: 1.5rem;
-        background: var(--mainColor);
+        background: black;
         transition: 1s;
         transform: translateY(-100vh);
         padding-top: 30px;
@@ -802,7 +875,7 @@
     .logo {
         margin-right: 0px;
         text-align: left;
-        width: 80%;
+        width: 75%;
         justify-content: left;
     }
 
@@ -811,7 +884,7 @@
     }
 
     .features {
-        margin-top: 100px;
+        margin-top: 110px;
     }
 
     .featuresContainer {
@@ -843,9 +916,14 @@
 
 
     .featuresContent {
-        width: 90%;
-        height: 80px;
+
         text-align: center;
+        width: 300px;
+        overflow: hidden;
+        line-height: 40px;
+        -webkit-line-clamp: 2;
+        height: 80px;
+        -webkit-box-orient: vertical;
     }
 
     .video {
@@ -857,22 +935,25 @@
     .featuresBold {
         text-align: center;
         width: 231px;
-        margin-bottom: 80px;
+        margin-bottom: 82px;
 
     }
 
     .computer {
-        width: 350px;
-        height: 200px;
+        width: 360px;
+        height: 210px;
     }
 
     .featuresContainerFastest {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
         text-align: center;
 
     }
 
     .featuresTiltleFastest {
-        width: 95%;
+        width: 100%;
         height: 55px;
         justify-content: center;
         text-align: center;
@@ -880,10 +961,16 @@
 
     .featuresContentFastest {
 
-        width: 90%;
+        width: 82%;
         height: 150px;
+        margin-left: 9%;
         text-align: center;
-        margin-top: 100px;
+        overflow: hidden;
+        line-height: 40px;
+        -webkit-line-clamp: 2;
+        height: 80px;
+        -webkit-box-orient: vertical;
+
 
     }
 
@@ -898,11 +985,11 @@
 
     .featuresContainerLetter {
         display: flex;
-        margin-top: 150px;
+        /* margin-top: 150px; */
 
         justify-content: space-around;
         align-items: center;
-        flex-direction: column-reverse;
+        flex-direction: column;
     }
 
     .featuresBox {
@@ -912,12 +999,13 @@
         flex-direction: column-reverse;
     }
 
+    /* 
     .featuresContainerLetter {
         display: flex;
         justify-content: center;
-        margin-top: 150px;
 
-    }
+
+    } */
 
     .featuresTiltleMinLetter {
         width: 335px;
@@ -944,7 +1032,7 @@
 
     .buttonLetter {
         display: flex;
-        margin-top: 100px;
+        margin-top: 25px;
         flex-direction: column;
     }
 
@@ -967,18 +1055,38 @@
     }
 
     .TestimonialsContent {
-        width: 90%;
-        height: 200px;
+        width: 280px;
+        height: 51px;
+
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 13.5256px;
+        line-height: 17px;
+        /* or 125% */
+
+        text-align: center;
+        letter-spacing: 0.16907px;
+
+        /* second text */
+
+        color: #374754;
+
 
     }
 
     .pricingContent {
         margin-top: 27px;
-        width: 90%;
+        width: 300px;
+        overflow: hidden;
+        line-height: 40px;
+        -webkit-line-clamp: 2;
+        height: 80px;
+        -webkit-box-orient: vertical;
     }
 
     .pricing {
-        height: 2340px;
+        height: 2400px;
     }
 
     .pricingBoldWhite {
@@ -1061,6 +1169,7 @@
         font-size: 16px;
         align-items: center;
         margin-bottom: 0px;
+        height: 60px;
     }
 
 
@@ -1072,13 +1181,17 @@
 
     .containerContactRight {
         width: 90%;
-        height: 669px;
+        /* height: 669px; */
+        display: flex;
+        flex-direction: column-reverse;
+
     }
 
     .contactAdress3 {
         flex-direction: row;
         justify-content: center;
         margin-left: 0px;
+        margin-top: 0px;
     }
 
     .formContact {
@@ -1100,6 +1213,7 @@
         margin: auto;
         width: 300px;
         text-align: left;
+        margin-bottom: 52px;
     }
 
     .headerText {
@@ -1119,15 +1233,23 @@
     }
 
     .TextContent {
-        width: 90%;
+        width: 300px;
         overflow: hidden;
-        text-overflow: clip;
-        line-height: 25px;
+        line-height: 40px;
         -webkit-line-clamp: 2;
-        height: 50px;
-        display: -webkit-box;
+        height: 80px;
         -webkit-box-orient: vertical;
     }
 
+    .headerTextContent {
+        margin-bottom: 70px;
+    }
 
+    .margin100 {
+        margin-top: 66px;
+    }
+
+    .margin100v2 {
+        margin-top: 82px;
+    }
 }

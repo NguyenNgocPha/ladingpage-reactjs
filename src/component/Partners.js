@@ -11,7 +11,7 @@ import partners8 from "../asset/partners8.svg";
 
 function Partners() {
   return (
-    <div className="features" style={{ marginTop: "130px" }}>
+    <div className="features" style={{ marginTop: "144px" }}>
       <div className="featuresContainer">
         <div className="featuresTiltle">Partners</div>
       </div>
@@ -24,17 +24,17 @@ function Partners() {
       <div style={{ marginTop: "90px", textAlign: "center" }}>
         <div className="featuresContainer">
           <img src={partners1} />
-          <img src={partners2} />
-          <img src={partners3} />
-          <img src={partners4} />
+          <img src={partners2} className="marginImg" />
+          <img src={partners3} className="marginImg" />
+          <img src={partners4} className="DisplayNone" />
         </div>
-        <div className="featuresContainer">
-          <img src={partners5} />
-          <img src={partners6} />
-          <img src={partners7} />
-          <img src={partners8} />
+        <div className="featuresContainer ">
+          <img src={partners5} className="DisplayNone" />
+          <img src={partners6} className="DisplayNone" />
+          <img src={partners7} className="DisplayNone" />
+          <img src={partners8} className="DisplayNone" />
         </div>
-        <div className="headerButton" style={{ marginTop: "80px" }}>
+        <div className="PartnersButton" style={{ marginTop: "80px" }}>
           <button>Try For Free</button>
         </div>
       </div>

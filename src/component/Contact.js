@@ -10,7 +10,7 @@ import thinkBlue from "../asset/thinkBlue.svg";
 
 function Contact() {
   return (
-    <div className="features" style={{ marginTop: "200px" }}>
+    <div className="features margin200">
       <div className="featuresContainer">
         <div className="featuresTiltle">Contact Us</div>
       </div>
@@ -53,9 +53,11 @@ function Contact() {
               </div>
             </div>
 
-            <div className="featuresBold contactAdress2">
+            <div className="featuresBold contactAdress">
               <img src={phoneBlue} alt="Italian Trulli" />
-              <div className="featuresBold contactAdress2">(843) 555-0130</div>
+              <div className="featuresBoldTextContent contactAdress2">
+                (843) 555-0130
+              </div>
             </div>
 
             <div className="contactAdress featuresBold ">

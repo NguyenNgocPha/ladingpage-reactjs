@@ -311,7 +311,7 @@
     flex-direction: column;
     align-items: flex-start;
     padding: 19px 39px;
-    gap: 64px;
+
     width: 273px;
     height: 54px;
     background: #F4F4F4;
@@ -549,6 +549,7 @@
 .inputMessage {
     margin: auto;
     padding-left: 19px;
+    padding-top: 19px;
     gap: 47px;
     align-items: start;
     width: 353px;
@@ -692,6 +693,7 @@
     color: #252B42;
     letter-spacing: 0.2px;
     font-family: 'Graphik';
+    margin-top: 10px;
     text-align: left;
 }
 
@@ -731,7 +733,7 @@
 
 .contactAdress {
     width: 293px;
-    margin-left: 35px;
+
 }
 
 .contactAdress2 {
@@ -742,6 +744,7 @@
     line-height: 23px;
     width: 293px;
     color: #374754;
+    margin-top: 20px;
 
 }
 
@@ -753,6 +756,7 @@
     line-height: 23px;
     width: 117px;
     color: #374754;
+    margin-top: 20px;
 
 }
 
@@ -760,8 +764,8 @@
 .contactAdress3 {
     display: flex;
     justify-content: left;
-    margin-top: 70px;
-    margin-left: 60px;
+    margin-top: 74px;
+    margin-left: 64px;
 }
 
 .header .nav-btn {
@@ -824,11 +828,58 @@
     margin-top: 210px;
 }
 
+.margin35 {
+    margin-left: 35px;
+    margin-right: 35px;
+}
 
+.pricingButton {
+    display: flex;
+    justify-content: center;
+}
+
+.pricingButton button {
+    font-family: 'Graphik';
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 16px 0px;
+    width: 72%;
+    height: 52px;
+    background: #2091F9;
+    border-radius: 35px;
+    border-width: 0;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+    color: #FFFFFF;
+}
 
 @media screen and (max-width:445px) {
     .body {
         width: 100%;
+    }
+
+    .fontP {
+        font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 10.1442px;
+
+        /* identical to box height, or 150% */
+
+        letter-spacing: 0.0845349px;
+
+        /* second text */
+
+        color: #374754;
+
+    }
+
+    .margin35 {
+        margin-left: 0px;
+        margin-right: 0px;
     }
 
     .Display {
@@ -840,7 +891,9 @@
     }
 
     .marginImg {
-        margin-top: 30PX;
+        margin-top: 30px;
+        width: 274px;
+        height: 164px;
     }
 
     .margin200 {
@@ -857,8 +910,8 @@
         width: 100%;
         height: 847px;
         background-size: 100% 847px;
-        background-image: url('./Rectangle.png');
-        clip-path: polygon(0 0, 100% 0, 100% 757px, 50% 847px, 0 757px);
+        background-image: url('./Rectangle9.png');
+
     }
 
     .header .nav-btn {
@@ -1024,7 +1077,7 @@
     .featuresContainerLetter {
         display: flex;
         /* margin-top: 150px; */
-
+        width: 100%;
         justify-content: space-around;
         align-items: center;
         flex-direction: column;
@@ -1064,26 +1117,35 @@
     }
 
     .containerLetter {
-        margin-left: 100px;
-        width: 450px;
+        display: flex;
+        margin-left: 0px;
+        width: 100%;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+
     }
 
     .buttonLetter {
+
+        margin-top: 34px;
         display: flex;
-        margin-top: 25px;
         flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
     }
 
     .SubscribeButton {
         align-items: center;
-        width: 350px;
+        width: 85%;
         height: 54px;
         margin-top: 12px;
 
     }
 
     .EmailButton {
-        width: 350px;
+        width: 85%
     }
 
     .userSvg {
@@ -1129,11 +1191,13 @@
 
     .pricingBoldWhite {
         margin-right: 0px;
+        width: 81%;
 
     }
 
     .pricingBoldBlue {
         height: 607px;
+        width: 81%;
         margin-right: 0px;
         margin-top: 50px;
         margin-bottom: 50px;
@@ -1209,6 +1273,7 @@
         align-items: center;
         margin-bottom: 0px;
         height: 60px;
+        margin-top: 0px;
     }
 
 
@@ -1238,26 +1303,27 @@
     .contactAdress4 {
         margin-left: 20px;
         width: 250px;
+        margin-top: 0px;
     }
 
     .formContact {
-        width: 95%;
+        width: 91%;
     }
 
     .input {
-        width: 300px;
+        width: 74%;
         height: 54px;
     }
 
     .inputMessage {
-        width: 300px;
+        width: 74%;
         height: 193px;
 
     }
 
     .contactButton {
-        margin: auto;
-        width: 300px;
+
+        width: 77%;
         text-align: left;
         margin-bottom: 52px;
     }

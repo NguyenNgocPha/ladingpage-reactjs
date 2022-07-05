@@ -24,10 +24,17 @@ function Testimonials() {
           style={{ width: "50px", height: "50px", borderRadius: "50%" }}
         />
         <div
-          style={{ marginLeft: "10px", color: "#374754", textAlign: "left" }}
+          style={{
+            marginLeft: "10px",
+            color: "#374754",
+            textAlign: "left",
+            alignItems: "center",
+          }}
         >
-          <p style={{ margin: 0 }}>Organize across</p>
-          <p style={{ marginTop: "8px" }}>Ui designer</p>
+          <p style={{ marginTop: 5 }} className="fontP">
+            Organize across
+          </p>
+          <p style={{ marginTop: "1.6px" }}>Ui designer</p>
         </div>
       </div>
       <div className="PartnersButton" style={{ marginTop: "82px" }}>

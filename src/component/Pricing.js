@@ -42,7 +42,7 @@ function Pricing() {
           <p>Pricing Feature</p>
           <p>Pricing Feature</p>
           <p>Pricing Feature</p>
-          <div className="headerButton" style={{ marginTop: "60px" }}>
+          <div className="pricingButton" style={{ marginTop: "60px" }}>
             <button>Order Now</button>
           </div>
         </div>
@@ -71,7 +71,7 @@ function Pricing() {
           <p>Pricing Feature</p>
           <p>Pricing Feature</p>
           <p>Pricing Feature</p>
-          <div className="headerButton" style={{ marginTop: "58px" }}>
+          <div className="pricingButton" style={{ marginTop: "58px" }}>
             <button style={{ backgroundColor: "#FFFFFF", color: "#2091F9" }}>
               Order Now
             </button>
@@ -107,7 +107,7 @@ function Pricing() {
           <p>Pricing Feature</p>
           <p>Pricing Feature</p>
           <p>Pricing Feature</p>
-          <div className="headerButton" style={{ marginTop: "60px" }}>
+          <div className="pricingButton" style={{ marginTop: "60px" }}>
             <button>Order Now</button>
           </div>
         </div>

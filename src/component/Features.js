@@ -128,7 +128,11 @@ function Features() {
             Available exclusivery on Figmaland
           </div>
           <div className="buttonLetter">
-            <input className="EmailButton" placeholder="Your Email" />
+            <input
+              className="EmailButton"
+              placeholder="Your Email"
+              defaultValue="Your Email"
+            />
             <button className="SubscribeButton">Subscribe</button>
           </div>
         </div>

@@ -8,6 +8,12 @@
     src: url('./Graphik/GraphikBold.otf');
 }
 
+@font-face {
+    font-family: "GraphikLight";
+    src: url('./Graphik/GraphikExtralight.otf');
+}
+
+
 .header {
     width: 100%;
     height: 1042px;
@@ -17,7 +23,7 @@
     font-family: 'Graphik';
     background-repeat: no-repeat;
     background-size: 100% 930px;
-    background-image: url('https://img6.thuthuatphanmem.vn/uploads/2022/03/04/background-hop-online-cong-ty-4k_013912826.jpg');
+    background-image: url('./Rectangle.png');
     clip-path: polygon(0 0, 100% 0, 100% 770px, 50% 930px, 0 770px);
 }
 
@@ -223,7 +229,7 @@
 
 .footerBold {
     margin-right: 100px;
-    font-family: 'Graphik';
+    font-family: 'GraphikLight';
     font-weight: 400;
     font-size: 15px;
     line-height: 28px;
@@ -237,6 +243,7 @@
 
 .footerBold p {
     margin-top: 16px;
+    text-align: left;
 }
 
 .footerBoldtitle {
@@ -247,12 +254,13 @@
     line-height: 28px;
     letter-spacing: 0.1px;
     color: #FFFFFF;
+
 }
 
 .footerBoldIcon {
     margin-left: 200px;
     margin-top: 10px;
-    font-family: 'Graphik';
+    font-family: 'GraphikLight';
     font-weight: 400;
     font-size: 15px;
     line-height: 28px;
@@ -317,6 +325,7 @@
     /* Background */
 
     color: #18171D;
+    margin-right: 12px;
 
 }
 
@@ -588,6 +597,7 @@
 
 .featuresContainerFastest {
     text-align: left;
+    width: 656px;
 }
 
 .featuresTiltleFastest {
@@ -653,7 +663,7 @@
     height: 55px;
     font-weight: 400;
     font-size: 20px;
-    line-height: 55px;
+    line-height: 28px;
     color: #252B42;
     letter-spacing: 0.2px;
     font-family: 'GraphikBold';
@@ -678,7 +688,7 @@
     height: 55px;
     font-weight: 400;
     font-size: 20px;
-    line-height: 55px;
+    line-height: 28px;
     color: #252B42;
     letter-spacing: 0.2px;
     font-family: 'Graphik';
@@ -686,8 +696,8 @@
 }
 
 .containerLetter {
-    margin-left: 100px;
-    width: 450px;
+    margin-left: 145px;
+    width: 460px;
 }
 
 .buttonLetter {
@@ -710,23 +720,48 @@
 
 .ContactRight {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
+    margin-left: 60px;
 }
 
 .containerContactRight {
-    width: 765px;
+    width: auto;
     /* height: 669px; */
 }
 
 .contactAdress {
-    width: 40%;
+    width: 293px;
+    margin-left: 35px;
 }
+
+.contactAdress2 {
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    width: 293px;
+    color: #374754;
+
+}
+
+.contactAdress4 {
+    font-family: 'Graphik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 23px;
+    width: 117px;
+    color: #374754;
+
+}
+
 
 .contactAdress3 {
     display: flex;
     justify-content: left;
     margin-top: 70px;
-    margin-left: 50px;
+    margin-left: 60px;
 }
 
 .header .nav-btn {
@@ -789,6 +824,8 @@
     margin-top: 210px;
 }
 
+
+
 @media screen and (max-width:445px) {
     .body {
         width: 100%;
@@ -820,7 +857,7 @@
         width: 100%;
         height: 847px;
         background-size: 100% 847px;
-        background-image: url('https://img6.thuthuatphanmem.vn/uploads/2022/03/04/background-hop-online-cong-ty-4k_013912826.jpg');
+        background-image: url('./Rectangle.png');
         clip-path: polygon(0 0, 100% 0, 100% 757px, 50% 847px, 0 757px);
     }
 
@@ -875,7 +912,7 @@
     .logo {
         margin-right: 0px;
         text-align: left;
-        width: 75%;
+        width: 75vh;
         justify-content: left;
     }
 
@@ -945,6 +982,7 @@
     }
 
     .featuresContainerFastest {
+        width: 335px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
@@ -1157,11 +1195,12 @@
         justify-content: left;
         text-align: left;
         width: 400px;
-        margin-bottom: 0px;
+        margin-bottom: 20px;
+        margin-left: 0px;
     }
 
     .contactAdress2 {
-        margin-left: 10px;
+        margin-left: 20px;
         display: flex;
         justify-content: left;
         text-align: left;
@@ -1176,7 +1215,9 @@
     .ContactRight {
         display: flex;
         flex-direction: column;
-        justify-content: space-around
+        justify-content: space-around;
+        margin-left: 0px;
+        margin-bottom: 78px;
     }
 
     .containerContactRight {
@@ -1192,6 +1233,11 @@
         justify-content: center;
         margin-left: 0px;
         margin-top: 0px;
+    }
+
+    .contactAdress4 {
+        margin-left: 20px;
+        width: 250px;
     }
 
     .formContact {
@@ -1251,5 +1297,9 @@
 
     .margin100v2 {
         margin-top: 82px;
+    }
+
+    .footerBold p {
+        text-align: center;
     }
 }

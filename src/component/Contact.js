@@ -47,29 +47,25 @@ function Contact() {
           <div className="ContactRight " style={{ marginTop: "45px" }}>
             <div className="contactAdress featuresBold ">
               <img src={addressBlue} alt="Italian Trulli" />
-
-              <div className="featuresBoldTextContent contactAdress2">
+              <div className="contactAdress2">
                 6386 Spring St undefined Anchorage, Georgia 12473 United States
               </div>
             </div>
 
-            <div className="featuresBold contactAdress">
+            <div className="featuresBold contactAdress" style={{ width: 117 }}>
               <img src={phoneBlue} alt="Italian Trulli" />
-              <div className="featuresBoldTextContent contactAdress2">
-                (843) 555-0130
-              </div>
+              <div className=" contactAdress4">8435550130</div>
             </div>
-
-            <div className="contactAdress featuresBold ">
+            <div className="featuresBold contactAdress" style={{ width: 225 }}>
               <img src={mail} alt="Italian Trulli" />
-              <div className="featuresBoldTextContent contactAdress2">
+              <div className=" contactAdress4" style={{ width: 225 }}>
                 willie.jennings@example.com
               </div>
             </div>
           </div>
 
-          <div className="featuresContainer map" style={{ marginTop: "10px" }}>
-            <img src={map} />
+          <div className="featuresContainer map" style={{ marginTop: "70px" }}>
+            <img src={map} style={{ marginLeft: 50 }} />
           </div>
 
           <div className="contactAdress3">

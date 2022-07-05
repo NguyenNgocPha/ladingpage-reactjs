@@ -3,7 +3,7 @@ import "../css/index.css";
 import opentype from "../asset/opentype.svg";
 import desgin from "../asset/desgin.svg";
 import fastest from "../asset/fastest.svg";
-import video from "../asset/bunny.mp4";
+import video from "../asset/video.svg";
 import computor from "../asset/computor.svg";
 import user from "../asset/user.svg";
 
@@ -74,7 +74,7 @@ function Features() {
         </div>
 
         <div className="featuresContainer margin100">
-          <video className="video" src={video} controls />
+          <img className="video" src={video} />
         </div>
       </div>
 
@@ -118,11 +118,14 @@ function Features() {
           <div className="featuresTiltleLetter DisplayNone">
             Lightning fast prototyping{" "}
           </div>
-          <div className="featuresTiltleMinLetter " style={{ marginTop: 70 }}>
+          <div
+            className="featuresTiltleMinLetter "
+            style={{ marginTop: 70, height: 28 }}
+          >
             Subscribe to our Newsletter
           </div>
-          <div className="featuresContentMinLetter">
-            Subscribe to our Newsletter
+          <div className="featuresContentMinLetter" style={{ height: 28 }}>
+            Available exclusivery on Figmaland
           </div>
           <div className="buttonLetter">
             <input className="EmailButton" placeholder="Your Email" />
